@@ -1,0 +1,76 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container1{
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/majestic-mountain-peak-tranquil-winter-landscape-generated-by-ai.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+    padding-top: 30px;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: white;
+    list-style: none;
+
+}
+.btn1{
+    background-color: rgb(3, 184, 184);
+    padding: 10px 18px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
+h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+p{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.btn{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+.btn2{
+    background-color: rgba(3, 184, 184, 0);
+    padding: 10px 18px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    border: 1px solid cyan;
+   
+}
+li>a{
+    color: white;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    font-family: Roboto, sans-serif;
+    align-items: center;
+    padding-top: 200px;
+}
